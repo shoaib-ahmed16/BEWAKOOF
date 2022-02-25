@@ -1,0 +1,198 @@
+.font
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+#import-navbar-payment-pages
+{
+    margin-bottom: 40px;
+}
+#body-address
+{
+display: flex;
+width: 76%;
+margin: auto;
+}
+#left-portion
+{
+    width: 55%;
+    border: 1px dotted transparent;
+    margin-right: 3%;
+}
+#right-portion
+{
+    width: 42%;
+    border: 2px solid  transparent;  
+}
+#left-portion>h2{
+    line-height: 0px;
+    margin-bottom: 30px;
+}
+#detail-address
+{
+    border: 1px solid lightgray;
+}
+#detail-address>#first1
+{
+    padding-left: 3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    width: 97%;
+    background-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.877);
+}
+#buyer-name,#buyer-add-type
+{
+    padding-left: 3%;
+    padding-right: 1.5%;
+    font-size: 12px;
+    margin-top: 20px;
+
+}
+#buyer-add-type
+{
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    margin-top: 18px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+#detail-address>p{
+    padding-left: 3%;
+    padding-right: 1.5%;
+    font-size: 13px;
+    font-weight: 500;
+    width: 50%;
+    margin-top: 10px;
+    color: rgb(34, 33, 33);
+}
+#detail-address>:nth-child(4)
+{
+    padding-left: 3%;
+    padding-right: 1.5%;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    color: rgb(34, 33, 33);
+}
+#detail-address>:nth-child(4)>#add-number
+{
+    padding-left: 3px;
+    padding-right: 1.5%;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+#Change-add-address
+{
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 3%;
+    width: 34%;
+    border: 1px solid cadetblue;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    color: cadetblue;
+    margin-bottom: 15px;
+}
+
+/* css of right portion */
+#bag-referrence-gift
+{
+margin-top: 42px;
+height: 55px;
+width: 100%;
+}
+
+/* above css for dom design of card of product */
+#bag-buy-details
+{
+width: 100%;
+margin-top: 5px;
+border: 1px solid silver;
+border-bottom: 1px solid transparent;
+}
+#bag-buy-details>:nth-child(1)
+{
+padding-left: 5px;
+background-color: whitesmoke;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-bottom: 15px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.flex-box
+{display: flex;
+justify-content: space-between;}
+.flex-box>:nth-child(1)
+{
+margin-left: 5px;
+}
+.flex-box>:nth-child(2)
+{
+margin-right: 5px;
+}
+#saving-on-purchase
+{
+display: flex;
+width: 90%;
+background-color: rgb(217, 241, 217);
+padding-left: 5%;
+height: 18px;padding-top: 5px;
+padding-bottom: 5px;
+margin: auto;
+border-radius:40px;
+margin-top: 15px;
+color: green;
+margin-bottom: 50px;
+}
+#total-paying-amount
+{margin: 0px 4px 0px 4px}
+
+#purchase-enter-address
+{
+display: flex;
+width: 100%;
+border: 1px solid silver;
+padding-top: 15px;
+padding-bottom: 15px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#purchase-enter-address>:nth-child(1)>:nth-child(1)
+{
+margin-left: 20px;
+font-weight: bolder;
+}
+#purchase-enter-address>:nth-child(1)>:nth-child(2)
+{
+margin-left: 20px;
+font-size: 13px
+}
+#purchase-enter-address>#go-to-add-address{
+cursor: pointer;
+background-color: cadetblue;
+width: 65%;
+height: 18px;
+padding-top: 15px;
+padding-bottom: 18px;
+margin-left: 10px;
+text-align: center;
+margin-left: 21%;
+font-size: 16px;
+font-weight: bold;
+color: white;
+border-radius: 8px;
+font-weight: 600;
+}

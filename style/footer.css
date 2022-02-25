@@ -1,0 +1,185 @@
+#footer
+{
+    width: 100%;
+    background-color:black;
+    color:white;
+    padding-bottom: 100px
+
+}
+#footer-adjustment
+{
+    width: 80%;
+    margin: auto;
+    padding-top: 60px;
+
+}
+#footer-adjustment>div>h1
+{
+    cursor: pointer;
+    color: gold;
+    font-size: 28px;
+}
+#footer-adjustment>div>h1::selection
+{
+    background-color: gold;
+    color: white;
+}
+.footer-font-family
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+h3::selection
+{
+    background-color: gold;
+    color: white;
+}
+.footer-color
+{
+    color:gold;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+.footer-color::selection
+{
+    background-color: gold;
+    color: white;
+}
+.footer-font-family>h3,.footer-font-family>div>h3
+{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    cursor: pointer;
+}
+#footer-main
+{
+    margin-bottom: 30px;
+}
+#footer-main>div
+{
+    width: 24%;
+}
+#subscribtion
+{
+    width: 100%;
+    height: 30px;
+    background-color: gold;
+
+}
+#subscribtion>input
+{
+    width: 70%;
+    border-width: 0px;
+    border:none;
+    outline: none;
+    height: 26px;
+    padding-left: 10px;
+    background-color: black;
+    color: gray;
+}
+#subscribtion>div
+{
+    cursor: pointer;
+    padding: 4px 30px 5px 30px
+}
+#footer-subscription
+{
+    background-color: gold;
+    color: black;
+}
+#footer-subscription::selection
+{
+    background-color: gold;
+    color: white;
+}
+#bewakoof-downlaod-app>img{
+    width: 35%;
+}
+#bewakoof-downlaod-app>img+img{
+    padding-left: 3%;
+}
+#social-media-img
+{
+    display: flex;
+
+}
+#social-media-img>img
+{
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 41px;
+    background-color: white;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+/* bottom-head css */
+#bottom-head>div
+{width: 24%;}
+#bottom-head>div>h1
+{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+}
+#bottom-head>div>h4::selection,#bottom-head>div>h1::selection
+{
+    background-color: gold;
+    color: white;
+}
+br::selection
+{
+    background-color: gold;
+    color: white;
+}
+#bottom-head>div>h4
+{
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#bottom-head>div>#bottom-footer-heading-change-font-size
+{
+    font-size: 14px;
+}
+#botton-head-coca-cola>h1
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color:aqua
+}
+#bewakoof-guidelines-description-row
+{
+    width: 100%;
+    background-color: black;
+    margin-top: -40px;
+    padding-bottom: 50px;
+}
+.bewakoof-fraud-alert-message-description-row{
+    width: 82%;
+    margin: auto;
+    background-color: black;
+}
+.bewakoof-fraud-alert-message-description-row>p,.bewakoof-fraud-alert-message-description-row>h3
+{
+    color: white;
+    line-height: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bewakoof-fraud-alert-message-description-row>p::selection,.bewakoof-fraud-alert-message-description-row>h3::selection
+{
+    background-color: gold;
+    color: white;
+}
+.bewakoof-fraud-alert-message-description-row>h3
+{
+    font-weight: 600;
+}

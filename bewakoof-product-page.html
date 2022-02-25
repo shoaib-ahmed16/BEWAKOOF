@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printed T Shirt Online: Graphic Design</title>
+    <link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="https://images.bewakoof.com/web/favicon-1635856217.png"
+    hreflang="en-in"
+  />
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link  rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/bewakoof-product-page.css" />
+    <link rel="stylesheet" href="./style/scross.css">
+
+</head>
+<body>
+<!-- navbar -->
+  <div id="navbar" ></div>
+<!-- products start -->
+<div id="bewakoof_product_page_Main_box">
+  <div id="bewakoof_product_page_Title_box">
+    <p>Home /</p>
+    <p>Men Clothing /</p>
+    <p>Shirts For Men</p>
+  </div>
+  <div id="bewakoof_product_page_ProductTitle_box"><h2 id="bewakoof_product_page_h2"> Men's Shirts <h2 id="Count_of_Products"> </h2></h2></div>
+  <div id="bewakoof_product_page_ProductDetails">
+    <div id="bewakoof_product_page_Left_box">
+      <p> FILTERS </p>
+      <span>
+        <button class="dropdown-btn">Category <i class="fa fa-caret-down"></i></button>
+        <span class="dropdown-container">
+          <div id="category002">Shirt</div>
+          <div id="category003">Kurta</div>
+        </span>
+        <hr>
+      </span>
+      <span>
+        <button class="dropdown-btn">Sizes <i class="fa fa-caret-down"></i></button>
+        <span class="dropdown-container">
+          <div>S</div>
+          <div>4XL</div>
+          <div>4XL</div>
+          <div>5XL</div>
+          <div>M</div>
+          <div>3XL</div>
+          <div>L</div>
+          <div>2XL</div>
+          <div>6XL</div>
+          <div>XL</div>
+          <div>38</div>
+          <div>40</div>
+          <div>42</div>
+          <div>44</div>
+          <div>46</div>
+          <div>48</div>
+          <div>50</div>
+          <div>52</div>
+          <div>54</div>
+        </span>
+      </span>
+      <hr>
+      <span>
+        <button class="dropdown-btn">Color <i class="fa fa-caret-down"></i></button>
+        <span class="dropdown-container">
+          <div>Yellow</div>
+          <div>Blue</div>
+          <div>Green</div>
+          <div>Red</div>
+        </span>
+        <hr>
+        <span>
+        <button class="dropdown-btn special">Design<i class="fa fa-caret-down"></i></button>
+        <span class="dropdown-container">
+          <div id="category00">Bewakoof</div>
+          <div>Khadio</div>
+          <div>Hangup</div>
+          <div>Disrupt</div>
+          <div>High Star</div>
+        </span>
+        <hr>
+        <span>
+        <button class="dropdown-btn special">Brand <i class="fa fa-caret-down"></i></button>
+        <span class="dropdown-container">
+          <div id="category00">Regular Fit</div>
+          <div>Relaxed Fit</div>
+          <div>Oversized</div>
+          <div>Slim Fit</div>
+          <div>Loose Fit</div>
+        </span>
+        <hr>
+        <span>
+          <button class="dropdown-btn special">Fit <i class="fa fa-caret-down"></i></button>
+          <span class="dropdown-container">
+            <div id="category00">Full Sleeve</div>
+            <div>Half Sleeve</div>
+            <div>3/4 Sleeve</div>
+            <div>Sleeveless</div>
+          </span>
+          <hr>
+          <span>
+          <button class="dropdown-btn special">Sleeve <i class="fa fa-caret-down"></i></button>
+          <span class="dropdown-container">
+            <div id="category00">Shirt Collar</div>
+            <div>Mandarin Collar</div>
+            <div>Spread Collar</div>
+            <div>Collar</div>
+            <div>Polo</div>
+          </span>
+        <hr>
+        <span>
+          <button class="dropdown-btn special">Neck 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <span class="dropdown-container">
+            <div id="category00">Solid</div>
+            <div>Plain</div>
+            <div>Aop</div>
+            <div>Printed</div>
+            <div>Checked</div>
+          </span>
+          <hr>
+          <span id="sort_by">
+            <button class="dropdown-btn special">Sort By <i class="fa fa-caret-down"></i></button>
+            <span class="dropdown-container">
+              <div id="category00">Popular</div>
+              <div>New</div>
+              <div>Aop</div>
+              <div>Price : High to Low</div>
+              <div>Price : Low to High </div>
+            </span>
+          <hr>
+          </div>
+          <div id="bewakoof_product_page_Right_box">
+            <p id="selectSort">SORT BY PRICE <select name="" id="sort00" size="" onchange="call()">
+              <option value="HL">High to Low</option>
+              <option value="LH">Low to High </option> 
+          </p>
+          </select>
+        <div>
+        <span id="bewakoof_product_page_Images">
+          <div id="bewakoof_product_page_Product_Deatils"></div>
+        </span>
+      </div>   
+    </div>
+  </div>
+</div>
+
+
+<div>
+  <div id="footer-bottom">
+        
+  </div>
+</body>
+</html>
+<script type="module">
+  import {navbar} from "./components/navbar.js"
+
+import {Footer} from "./components/navbar.js"
+
+document.getElementById("navbar").innerHTML =navbar()
+
+document.getElementById("footer-bottom").innerHTML =Footer()
+
+document.getElementById("bewakoof_product_page_Title_box").style.cursor="pointer"
+
+document.getElementById("index-page-login-to-bewakoof-sebsite").style.display="block"
+    document.getElementById("index-page-login-to-bewakoof-sebsite").addEventListener("click",(e)=>{
+        e.preventDefault()
+        window.location.href="/bewkoof-login-page.html"
+    })
+
+   let men = document.getElementById("mendropdown").addEventListener("mouseenter",navbar_appen)
+    function navbar_appen() {
+        let y = document.getElementById("Men-category")
+            y.style.display ="block";
+
+        let y1 = document.getElementById("Women-category")
+            y1.style.display ="none";
+
+        let y2= document.getElementById("mobile-cover-category")
+            y2.style.display ="none";
+    }
+    let men2 = document.getElementById("Men-category").addEventListener("mouseleave",navbar_remove)
+    function navbar_remove() {
+        let y = document.getElementById("Men-category")
+        y.style.display ="none";
+    }
+    let women = document.getElementById("womendropdown").addEventListener("mouseenter",navbar_appen2)
+    function navbar_appen2() {
+      
+        let y = document.getElementById("Men-category")
+            y.style.display ="none";
+
+        let y1 = document.getElementById("Women-category")
+            y1.style.display ="block";
+            
+        let y2= document.getElementById("mobile-cover-category")
+            y2.style.display ="none";
+    }
+    let women2 = document.getElementById("Women-category").addEventListener("mouseleave",navbar_remove2)
+    function navbar_remove2() {
+        let y = document.getElementById("Women-category")
+        y.style.display ="none";
+    }
+    let mobile = document.getElementById("mobilemendropdown").addEventListener("mouseenter",navbar_appen3)
+    function navbar_appen3() {
+        let y = document.getElementById("Men-category")
+            y.style.display ="none";
+
+        let y1 = document.getElementById("Women-category")
+            y1.style.display ="none";
+            
+        let y2= document.getElementById("mobile-cover-category")
+            y2.style.display ="block";
+    }
+    let mobile2 = document.getElementById("mobile-cover-category").addEventListener("mouseleave",navbar_remove3)
+    function navbar_remove3() {
+        let y = document.getElementById("mobile-cover-category")
+        y.style.display ="none";
+    }
+
+
+    document.querySelector("#bewkoof>:nth-child(1)>img").addEventListener("click",()=>{
+        window.location.href="/index.html"
+    })
+
+    // click to go to index.html
+    document.querySelector("#bewakoof_product_page_Title_box>:nth-child(1)").addEventListener("click",(e)=>{
+            e.preventDefault()
+            window.location.href="/index.html"
+    })
+
+    // click to go to bewakoof-product-page.html.html
+    document.querySelector("#bewakoof_product_page_Title_box>:nth-child(2)").addEventListener("click",(e)=>{
+            e.preventDefault()
+            window.location.href="/bewakoof-product-page.html"
+    })
+    // click to go to bewakoof-product-page.html.html
+    document.querySelector("#bewakoof_product_page_Title_box>:nth-child(3)").addEventListener("click",(e)=>{
+            e.preventDefault()
+            window.location.href="/bewakoof-product-page.html"
+    })
+
+    // click to go to bewakoof-product-page.html
+    document.querySelector(".cat_opt>:nth-child(1)>ul").addEventListener("click",(e)=>{
+            e.preventDefault()
+            window.location.href="/bewakoof-product-page.html"
+    })
+
+  // hide discription about website
+  setTimeout(()=>{
+        document.getElementById("bewakoof-guidelines-description-row").style.display="none"
+    },30000)
+
+
+// product present in cart indicator
+
+    let number_of_item_in_cart=JSON.parse(localStorage.getItem("Purchase-bewakoof-finally"))
+
+    if(number_of_item_in_cart.length!=0)
+    {
+        document.getElementById("count").style.display="block";
+        document.getElementById("count").innerHTML=number_of_item_in_cart.length
+    }
+    else if(number_of_item_in_cart.length=0)
+    {
+        document.getElementById("count").innerHTML="";
+        document.getElementById("count").style.display="none"
+
+    }
+
+//click to go to Purchase page
+document.getElementById("count").addEventListener("click",()=>{
+   setTimeout(()=>{ window.location.href="/bewakoof-bag.html"},100);
+})
+document.querySelector("#bewkoof>:nth-child(8)").addEventListener("click",()=>{
+   setTimeout(()=>{ window.location.href="/bewakoof-bag.html"},100);
+})
+</script>
+<script src="./script/bewakoof-product-page.js"></script>

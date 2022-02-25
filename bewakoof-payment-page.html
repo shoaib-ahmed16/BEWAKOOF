@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/scross.css">
+    <link rel="stylesheet" href="./style/payment-pages-navbar.css">
+    <link rel="stylesheet" href="./style/bewakoof-paymnet-page.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+  <div id="import-navbar-payment-pages"></div>
+
+    <div id="body">
+        <div id="topHead" style="display:flex">
+            <div>Payment</div>
+            <div style="display:flex">Pay<div id="paisa-doo">1998</div></div>
+        </div>
+        <div id="pay-option">
+            <div id="chose-paymnet">
+                <div id="cards">DEBIT/CREDIT CARD</div>
+                <div id="wallet">WALLET</div>
+                <div id="Upi">UPI</div>
+                <div id="netBanking">NET BANKING</div>
+                <div id="CashOndelivery">CASH ON DELIVERY
+                    <div id="extra-pay">Cash Collection Charges Costs ₹30 Extra</div>
+                </div>
+            </div>
+            
+            <div id="show-detail-pay">
+                <!-- Debit card start here -->
+                <div id="enter-card-det">
+                    <div style="display:flex">
+                        <div>+</div>
+                        <div>Add New Card</div>
+                    </div>
+                    <div>Card Number</div>
+                    <input id="input-debit" type="number">
+                    <input id="input-debit" type="text" placeholder="Name On Card">
+                    <div id="card-Ex-cvv" style="display:flex">
+                        <input id="expire" type="text" placeholder="Expiry mm/yy">
+                        <div id="cvv">
+                            <div>CVV</div>
+                            <input placeholder="&#x2022&#x2022&#x2022&#x2022">
+                        </div>
+                    </div>
+                    <div style="display:flex">
+                        <input type="checkbox" ><div id="securly">Securely save this card for faster payments.</div>
+                    </div>
+                    <div style="font-size: 12px;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">This Transaction you make is totally secure. We don't save your CVV number.</div>
+                    <div id="button-debit">PAY NOW</div>
+                </div>
+
+
+                <!-- wallet code start here -->
+                <div id="enter-wallet-det">
+                    <div>
+                        <!-- Paytm -->
+                        <div id="paytm-pay" style="display:flex">
+                            <img src="./Home Page/payment page icons/patym.webp">
+                            <div>Paytm</div>
+                            <div>
+                                a<div>b</div>
+                            </div>
+                        </div>
+                        <div id="hide-paytm">
+                            PAY NOW
+                        </div>
+
+                        <!-- Phonepay -->
+                        <div id="Phonepay-pay" style="display:flex">
+                            <img src="./Home Page/payment page icons/phonepe.webp">
+                            <div>Phonepay</div>
+                            <div>
+                                a<div>b</div>
+                            </div>
+                        </div>
+                        <div id="hide-Phonepay">
+                            PAY NOW
+                        </div>
+
+                        <!-- Amazon pay -->
+                        <div id="amazon-pay" style="display:flex">
+                            <img src="./Home Page/payment page icons/amazonpay-icon-1600094438.webp">
+                            <div>Amazon</div>
+                            <div>
+                                a<div>b</div>
+                            </div>
+                        </div>
+                        <div id="hide-amazon">
+                            PAY NOW
+                        </div>
+
+                        <!-- Mobiwik -->
+                        <div id="Mobiwik-pay" style="display:flex">
+                            <img src="./Home Page/payment page icons/mobikwik-1556185968.webp">
+                            <div>Mobiwik</div>
+                            <div>
+                                a<div>b</div>
+                            </div>
+                        </div>
+                        <div id="hide-Mobiwik">
+                            PAY NOW
+                        </div>
+
+                        <!-- Freecharge -->
+                        <div id="Freecharge-pay" style="display:flex">
+                            <img src="./Home Page/payment page icons/bitmap-copy.webp">
+                            <div>Freecharge</div>
+                            <div>
+                                a<div>b</div>
+                            </div>
+                        </div>
+                        <div id="hide-Freecharge">
+                            PAY NOW
+                        </div>
+                    </div>
+                </div>
+                <!-- upi start here -->
+                <div id="enter-upi-det" >
+                    <div id="upi-pay" style="display:flex">
+                        <img src="./Home Page/payment page icons/bitmap-copy.webp">
+                        <div>Add UPI</div>
+                        <div>
+                            a<div>b</div>
+                        </div>
+                    </div>
+                    <div id="hide-upi">
+                        <input placeholder="Enter UPI ID">
+                        <div>UPI ID is in the format of mobilenumber@bank or username@bank</div>
+                        <div style="display:flex">
+                            <input type="checkbox">
+                            <div>Save this UPI ID for future payments.</div>
+                        </div>
+                        <div id="verify-upi">VERIFY</div>
+                    </div>
+                </div>
+
+                <!-- netbanking start here -->
+                    <div id="enter-netbanking-det">
+                        <div>
+                            <!-- ICICI -->
+                            <div id="ICICI" style="display:flex">
+                                <img src="./Home Page/payment page icons/bank/icici-1556185960.webp">
+                                <div>ICICI</div>
+                                <div>
+                                    a<div>b</div>
+                                </div>
+                            </div>
+                            <div id="hide-ICICI">
+                                PAY NOW
+                            </div>
+    
+                            <!-- AXIS -->
+                            <div id="AXIS" style="display:flex">
+                                <img src="./Home Page/payment page icons/bank/axis-1556185962.webp">
+                                <div>Axis</div>
+                                <div>
+                                    a<div>b</div>
+                                </div>
+                            </div>
+                            <div id="hide-AXIS">
+                                PAY NOW
+                            </div>
+    
+                            <!-- SBI -->
+                            <div id="SBI" style="display:flex">
+                                <img src="./Home Page/payment page iconS/bank/sbi-1556185961.webp">
+                                <div>SBI</div>
+                                <div>
+                                    a<div>b</div>
+                                </div>
+                            </div>
+                            <div id="hide-SBI">
+                                PAY NOW
+                            </div>
+    
+                            <!-- HDFC -->
+                            <div id="HDFC" style="display:flex">
+                                <img src="./Home Page/payment page icons/bank/hdfc-1556185961.webp">
+                                <div>HDFC</div>
+                                <div>
+                                    a<div>b</div>
+                                </div>
+                            </div>
+                            <div id="hide-HDFC">
+                                PAY NOW
+                            </div>
+    
+                            <!-- KOTAK -->
+                            <div id="KOTAK" style="display:flex">
+                                <img src="./Home Page/payment page icons/bank/kotak-1556185967.webp">
+                                <div>KOTAK</div>
+                                <div>
+                                    a<div>b</div>
+                                </div>
+                            </div>
+                            <div id="hide-KOTAK">
+                                PAY NOW
+                            </div>
+                            <div id="otherBank-pay" style="display:flex">
+                                <img src="./Home Page/payment page icons/bank/other-bank-icon-1600258256.webp">
+                                <div>Other Banks</div>
+                                <div>
+                                    a<div>b</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- cash delivery -->
+
+                <div id="enter-cash-det">
+                    <div id="cash" style="display:flex">
+                        <img src="./Home Page/payment page icons/bank/other-bank-icon-1600258256.webp">
+                        <div>Cash On Delivery</div>
+                        <div>
+                            a<div>b</div>
+                        </div>
+                    </div>
+                    <div>Additional Cash collection charges of ₹30 is applicable on this order</div>
+                    <div style="display:flex">
+                        <div >Final Amount</div>
+                        <div id="finalAmount">₹1198</div>
+                    </div>
+                    <div style="display:flex">
+                        <div>Cash Collection Charges</div>
+                        <div id="cash-collection-charge">₹30</div>
+                    </div>
+                    <div style="display:flex">
+                        <div>Total payable Amount</div>
+                        <div id="total-payable"></div>
+                    </div>
+                    <div id="paymentdone">PAY WITH CASH</div>
+                </div>
+            </div>
+           
+
+
+        </div>
+    </div>
+    
+</body>
+</html>
+<script type="module">
+    import {productPurchase_navbar} from "./components/navbar.js"
+    
+    document.getElementById("import-navbar-payment-pages").innerHTML =productPurchase_navbar();
+
+    // click image of bewakoof move to home page
+    document.querySelector("#navbar>img").addEventListener("click",()=>{
+            window.location.href="/index.html"
+        })
+
+
+    // register user id display
+    let register_id =JSON.parse(localStorage.getItem("bewakoof-sign-in-email"))
+    // console.log(register_id)
+    document.getElementById("Register-email-show").innerHTML=register_id;
+
+
+</script>
+<script src="./script/bewakood-payment-page.js"></script>

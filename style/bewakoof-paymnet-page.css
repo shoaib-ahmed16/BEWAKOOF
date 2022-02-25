@@ -1,0 +1,885 @@
+#body
+{
+    margin-top: 30px;
+    width: 42%;
+    border: 1px dotted hidden;
+    margin-left: 13%;
+}
+#topHead
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:600;
+    height: 50px;
+    justify-content: space-between;
+}
+#pay-option
+{
+    width: 100%;
+    border: 1px solid silver;
+    display: flex;
+}
+#chose-paymnet
+{
+    width: 40%;
+    border: 1px solid transparent;
+}
+#chose-paymnet>div{
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid silver;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    padding-left: 5%;
+}
+#extra-pay
+{
+    font-size: 10px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.719);
+}
+#show-detail-pay
+{
+    width: 60%;
+    border: red 5px transparent;
+    height: 500px;
+}
+#enter-card-det
+{
+    display: none;
+    z-index: 10;
+    width: 21%;
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 20px;
+    border: 1px solid transparent;
+}
+#enter-wallet-det
+{
+    display: none;
+    z-index: 8;
+    position: absolute;
+    width: 21%;
+    margin-left: 1%;
+    margin-top: 20px;
+    border: 1px solid transparent;
+
+}
+#enter-upi-det
+{
+    display: none;
+    z-index: 6;
+    position: absolute;
+    width: 21%;
+    margin-left: 1%;
+    margin-top: 20px;
+    border: 1px solid transparent;
+
+}
+#enter-netbanking-det
+{
+    display: none;
+    z-index: 4;
+    position: absolute;
+    width: 21%;
+    margin-left: 1%;
+    margin-top: 20px;
+    border: 1px solid transparent;
+
+}
+#enter-cash-det
+{
+    display: none;
+
+    z-index: 2;
+    position: absolute;
+    width: 21%;
+    margin-left: 1%;
+    margin-top: 20px;
+    border: 1px solid transparent;
+
+}
+/* Debit card css */
+#enter-card-det>div>:nth-child(1)
+{
+    border: 2px solid cadetblue;
+    border-radius: 20px;
+    width: 20px;
+    text-align: center;
+    font-weight: 900;
+    color: cadetblue;
+    margin-bottom: 10px;
+}
+#enter-card-det>div>:nth-child(2)
+{
+    margin-left: 5%;
+    margin-top: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+#input-debit{
+    margin-bottom: 10px;
+    width: 98%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border:2px solid silver;
+    padding-left: 5px;
+}
+#enter-card-det>#card-Ex-cvv>#expire
+{
+    text-align: start;
+    font-size: 10px;
+    width: 40%;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border: 2px solid silver;
+}
+#card-Ex-cvv>#cvv
+{
+    font-size: 10px;
+    width: 40%;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border: 2px solid transparent;
+}
+#card-Ex-cvv>#cvv>input{
+    width: 100%;
+    padding-left: 5px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    height: 30px;
+    border: 2px solid silver;
+    padding-bottom: 5px;
+}
+#securly
+{font-size: 12px;
+}
+#button-debit
+{
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid transparent;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.24);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* option background change css */
+#chose-paymnet>#cards
+{
+    background-color: rgba(0, 0, 0, 0.192);
+}
+#chose-paymnet>#wallet
+{
+    background-color: rgba(0, 0, 0, 0.192);
+}
+#chose-paymnet>#Upi
+{
+    background-color: rgba(0, 0, 0, 0.192);
+
+}
+#chose-paymnet>#netBanking
+{
+
+    background-color: rgba(0, 0, 0, 0.192);
+}
+#chose-paymnet>#CashOndelivery
+{
+     background-color: rgba(0, 0, 0, 0.192);
+
+}
+
+/*wallet code  */
+#paytm-pay>img,#amazon-pay>img,#Mobiwik-pay>img,#Freecharge-pay>img,#Phonepay-pay>img
+{
+    width: 10%;
+}
+#paytm-pay>:nth-child(2),#amazon-pay>:nth-child(2),#Mobiwik-pay>:nth-child(2),#Freecharge-pay>:nth-child(2),#Phonepay-pay>:nth-child(2)
+{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+#paytm-pay>:nth-child(3)
+{
+    display: flex;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 65%;
+    border: 2px solid black;
+    height: 21px;
+    width: 21px;
+    color: white;
+    border-radius: 21px;
+}
+#amazon-pay>:nth-child(3)
+{
+    display: flex;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 61%;
+    border: 2px solid black;
+    height: 21px;
+    width: 21px;
+    color: white;
+    border-radius: 21px;
+}
+#Phonepay-pay>:nth-child(3)
+{
+    display: flex;
+    background-color: transparent;
+    margin-top: 5px;
+    border: 2px solid black;
+    height: 21px;
+    width: 21px;
+    color: white;
+    border-radius: 21px;
+    margin-left: 58%;
+
+}
+#Mobiwik-pay>:nth-child(3)
+{
+    display: flex;
+    background-color: transparent;
+    margin-top: 5px;
+    border: 2px solid black;
+    height: 21px;
+    width: 21px;
+    color: white;
+    border-radius: 21px;
+    margin-left: 61%;
+}
+#Freecharge-pay>:nth-child(3)
+{
+    
+    display: flex;
+    background-color: transparent;
+    margin-top: 5px;
+    border: 2px solid black;
+    height: 21px;
+    width: 21px;
+    color: white;
+    border-radius: 21px;
+    margin-left: 56%;
+}
+#paytm-pay>:nth-child(3)>div
+{
+    display: none;
+    margin-left:-6px;
+    color: black;
+    background-color: black;
+    /* width:100%; */
+    margin-top: 1.5px;
+    width: 18px;
+    height: 18px;
+    color: black;
+    border-radius: 20px;
+}
+#Phonepay-pay>:nth-child(3)>div
+{
+    display: none;
+    margin-left:-6px;
+    color: black;
+    background-color: black;
+    /* width:100%; */
+    margin-top: 1.5px;
+    width: 18px;
+    height: 18px;
+    color: black;
+    border-radius: 20px;
+}
+#amazon-pay>:nth-child(3)>div
+{
+    display: none;
+    margin-left:-6px;
+    color: black;
+    background-color: black;
+    /* width:100%; */
+    margin-top: 1.5px;
+    width: 18px;
+    height: 18px;
+    color: black;
+    border-radius: 20px;
+}
+#Mobiwik-pay>:nth-child(3)>div
+{
+    display: none;
+    margin-left:-6px;
+    color: black;
+    background-color: black;
+    /* width:100%; */
+    margin-top: 1.5px;
+    width: 18px;
+    height: 18px;
+    color: black;
+    border-radius: 20px;
+}
+#Freecharge-pay>:nth-child(3)>div
+{
+    display: none;
+    margin-left:-6px;
+    color: black;
+    background-color: black;
+    /* width:100%; */
+    margin-top: 1.5px;
+    width: 18px;
+    height: 18px;
+    color: black;
+    border-radius: 20px;
+}
+#hide-paytm
+{
+    display: none;
+    width: 98%;
+    margin: auto;
+    height: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid cadetblue;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    background-color: cadetblue;
+    border-radius: 5px;
+    color: white;
+
+}
+#hide-amazon
+{
+    display: none;
+    width: 98%;
+    margin: auto;
+    height: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid cadetblue;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    background-color: cadetblue;
+    border-radius: 5px;
+    color: white;
+
+}
+#hide-Mobiwik
+{
+    display: none;
+    width: 98%;
+    margin: auto;
+    height: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid cadetblue;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    background-color: cadetblue;
+    border-radius: 5px;
+    color: white;
+
+}
+#hide-Freecharge
+{
+    display: none;
+    width: 98%;
+    margin: auto;
+    height: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid cadetblue;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    background-color: cadetblue;
+    border-radius: 5px;
+    color: white;
+
+}
+#hide-Phonepay
+{
+    display: none;
+    width: 98%;
+    margin: auto;
+    height: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid cadetblue;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    background-color: cadetblue;
+    border-radius: 5px;
+    color: white;
+}
+/* UPI page */
+#upi-pay
+{
+    padding-top: 10px;
+}
+#upi-pay>img
+{
+    width: 10%;
+}
+#upi-pay>:nth-child(2)
+{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+#upi-pay>:nth-child(3)
+{
+    display: flex;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 62%;
+    border: 2px solid black;
+    height: 21px;
+    width: 21px;
+    color: white;
+    border-radius: 21px;
+}
+#upi-pay>:nth-child(3)>div
+{
+    display: none;
+    margin-left:-6px;
+    color: black;
+    background-color: black;
+    /* width:100%; */
+    margin-top: 1.5px;
+    width: 18px;
+    height: 18px;
+    color: black;
+    border-radius: 20px;
+}
+#hide-upi
+{
+    display: none;
+}
+#hide-upi>input
+{
+    width: 90%;
+    margin-left:2%;
+    margin-top: 20px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border:1px solid rgba(0, 0, 0, 0.5)
+}
+#hide-upi>:nth-child(2)
+{
+    margin-top: 10px;
+   width: 90%;
+   margin-left: 3%;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 12px;
+   font-weight: 600;
+}
+#hide-upi>:nth-child(3)
+{
+    margin-top: 10px;
+}
+#hide-upi>:nth-child(3)>input{
+    margin-left: 3%;
+}
+
+#hide-upi>:nth-child(3)>div
+{
+    margin-left: 3%;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 12px;
+   font-weight: 600;
+}
+#verify-upi
+{
+    width: 98%;
+    margin: auto;
+    height: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid cadetblue;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    background-color: cadetblue;
+    border-radius: 5px;
+    margin-top: 15px;
+    color: white;
+
+}
+
+/* NET BANKING CSS */
+#ICICI,#SBI,#HDFC,#KOTAK,#AXIS,#otherBank-pay
+{
+    margin-top: 20px;
+
+}
+#ICICI>img,#SBI>img,#HDFC>img,#KOTAK>img,#AXIS>img
+{
+    width: 10%;
+}
+#ICICI>:nth-child(2),#SBI>:nth-child(2),#HDFC>:nth-child(2),#KOTAK>:nth-child(2),#AXIS>:nth-child(2)
+{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+#ICICI>:nth-child(3)
+{
+    display: flex;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 65%;
+    border: 2px solid black;
+    height: 21px;
+    width: 21px;
+    color: white;
+    border-radius: 21px;
+}
+#SBI>:nth-child(3)
+{
+    display: flex;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 68%;
+    border: 2px solid black;
+    height: 21px;
+    width: 21px;
+    color: white;
+    border-radius: 21px;
+}
+#AXIS>:nth-child(3)
+{
+    display: flex;
+    background-color: transparent;
+    margin-top: 5px;
+    border: 2px solid black;
+    height: 21px;
+    width: 21px;
+    color: white;
+    border-radius: 21px;
+    margin-left: 66%;
+
+}
+#HDFC>:nth-child(3)
+{
+    display: flex;
+    background-color: transparent;
+    margin-top: 5px;
+    border: 2px solid black;
+    height: 21px;
+    width: 21px;
+    color: white;
+    border-radius: 21px;
+    margin-left: 63%;
+}
+#KOTAK>:nth-child(3)
+{
+    
+    display: flex;
+    background-color: transparent;
+    margin-top: 5px;
+    border: 2px solid black;
+    height: 21px;
+    width: 21px;
+    color: white;
+    border-radius: 21px;
+    margin-left: 61%;
+}
+#ICICI>:nth-child(3)>div
+{
+    display: none;
+    margin-left:-6px;
+    color: black;
+    background-color: black;
+    /* width:100%; */
+    margin-top: 1.5px;
+    width: 18px;
+    height: 18px;
+    color: black;
+    border-radius: 20px;
+}
+#AXIS>:nth-child(3)>div
+{
+    display: none;
+    margin-left:-6px;
+    color: black;
+    background-color: black;
+    /* width:100%; */
+    margin-top: 1.5px;
+    width: 18px;
+    height: 18px;
+    color: black;
+    border-radius: 20px;
+}
+#SBI>:nth-child(3)>div
+{
+    display: none;
+    margin-left:-6px;
+    color: black;
+    background-color: black;
+    /* width:100%; */
+    margin-top: 1.5px;
+    width: 18px;
+    height: 18px;
+    color: black;
+    border-radius: 20px;
+}
+#HDFC>:nth-child(3)>div
+{
+    display: none;
+    margin-left:-6px;
+    color: black;
+    background-color: black;
+    /* width:100%; */
+    margin-top: 1.5px;
+    width: 18px;
+    height: 18px;
+    color: black;
+    border-radius: 20px;
+}
+#KOTAK>:nth-child(3)>div
+{
+    display: none;
+    margin-left:-6px;
+    color: black;
+    background-color: black;
+    /* width:100%; */
+    margin-top: 1.5px;
+    width: 18px;
+    height: 18px;
+    color: black;
+    border-radius: 20px;
+}
+#hide-ICICI
+{
+    display: none;
+    width: 98%;
+    margin: auto;
+    height: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid cadetblue;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    background-color: cadetblue;
+    border-radius: 5px;
+    color: white;
+
+}
+#hide-SBI
+{
+    display: none;
+    width: 98%;
+    margin: auto;
+    height: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid cadetblue;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+#hide-HDFC
+{
+    display: none;
+    width: 98%;
+    margin: auto;
+    height: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid cadetblue;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    background-color: cadetblue;
+    border-radius: 5px;
+    color: white;
+
+}
+#hide-KOTAK
+{
+    display: none;
+    width: 98%;
+    margin: auto;
+    height: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid cadetblue;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    background-color: cadetblue;
+    border-radius: 5px;
+    color: white;
+
+}
+#hide-AXIS
+{
+    display: none;
+    width: 98%;
+    margin: auto;
+    height: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid cadetblue;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    background-color: cadetblue;
+    border-radius: 5px;
+    color: white;
+}
+/* Other bank css */
+#otherBank-pay>img{
+    width: 10%;
+}
+#otherBank-pay>:nth-child(2){
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+#otherBank-pay>:nth-child(3)
+{
+    display: flex;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 50%;
+    border: 2px solid black;
+    height: 21px;
+    width: 21px;
+    color: white;
+    border-radius: 21px;
+}
+#otherBank-pay>:nth-child(3)>div
+{
+    display: none;
+    margin-left:-6px;
+    color: black;
+    background-color: black;
+    /* width:100%; */
+    margin-top: 1.5px;
+    width: 18px;
+    height: 18px;
+    color: black;
+    border-radius: 20px;
+}
+/* case on delivery  */
+#cash>img{
+    width: 10%;
+}
+#cash>:nth-child(2){
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+#cash>:nth-child(3)
+{
+    display: flex;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 40%;
+    border: 2px solid black;
+    height: 21px;
+    width: 21px;
+    color: white;
+    border-radius: 21px;
+}
+#cash>:nth-child(3)>div
+{
+    display: none;
+    margin-left:-6px;
+    color: black;
+    background-color: black;
+    /* width:100%; */
+    margin-top: 1.5px;
+    width: 18px;
+    height: 18px;
+    color: black;
+    border-radius: 20px;
+}
+#enter-cash-det
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#enter-cash-det>:nth-child(2)
+{
+    margin-top: 20px;
+    font-size: 12px;
+}
+#enter-cash-det>:nth-child(3),#enter-cash-det>:nth-child(4),#enter-cash-det>:nth-child(5)
+{
+    margin-top: 5px;
+    font-size: 12px;
+    justify-content: space-between;
+}
+#paymentdone
+{
+    display: none;
+    width: 98%;
+    margin: auto;
+    height: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid cadetblue;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    background-color: cadetblue;
+    border-radius: 5px;
+    color: white;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online shopping for Men,Women</title>
+    <link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="https://images.bewakoof.com/web/favicon-1635856217.png"
+    hreflang="en-in"
+    />
+    <link rel="stylesheet" href="./style/scross.css">
+    <link rel="stylesheet" href="./style/bewakoof-bag.css">
+    <link rel="stylesheet" href="./style/payment-pages-navbar.css">
+    <link rel="stylesheet" href="./style/hidden-popup-address-page.css">
+    
+
+</head>
+<body>
+    <!-- popup address page -->
+    <div id="popupAddress"></div>
+
+    <div id="address-form">
+        <div style="display:flex">
+            <div id="form">Add New Address</div>
+            <div id="cross">X</div>
+        </div>
+        <div class="div-similar-similar" >Name</div>
+        <input class="div-similar-input" id="input-name" onkeypress="nameAdd(event)" placeholder="Full Name">
+        <div class="div-similar-similar">Mobile Number</div>
+        <input class="div-similar-input" id="input-number" onkeypress="numberAdd(event)" placeholder="Mobile Number">
+        <div id="stylehr"> </div>
+        <div class="div-similar-similar">Pin Code</div>
+        <input class="div-similar-input" id="input-pincode" onkeypress="pinAdd(event)" placeholder="Pin Code">
+        <div class="div-similar-similar" id="div-city-state" style="display: flex;">
+            <div>
+                <div>City</div>
+                <input id="input-city" onkeypress="cityAdd(event)" placeholder="City">
+            </div>
+            <div>
+                <div>State</div>
+                <input id="input-state" onkeypress="stateAdd(event)" placeholder="State">
+            </div>
+        </div>
+        <div class="div-similar-similar">Flat no/Building,Street name</div>
+        <input class="div-similar-input" id="input-flat" onkeypress="flatAdd(event)" placeholder="State">
+        <div class="div-similar-similar">Area/Locality</div>
+        <input class="div-similar-input" id="input-area" onkeypress="areaAdd(event)" placeholder="State">
+        <div class="div-similar-similar">Landmark (Optional)</div>
+        <input class="div-similar-input" id="input-landmark" onkeypress="landMarkAdd(event)" placeholder="State">
+        <div class="div-similar-similar">Save Address As</div>
+        <div id="option-address" class="div-similar-similar">
+        </div>
+        <div id="littlechange">
+            <div id="h" class="div-similar-similar">HOME</div>
+            <div id="o" class="div-similar-similar">OFFICE</div>
+            <div id="oth" class="div-similar-similar">OTHER</div>
+        </div>
+
+    </div>
+  <!-- navbar import here -->
+  <div id="import-navbar-payment-pages"></div>
+<!-- navbar import in above div -->
+    <div id="bag-body">
+        <div>
+            <div id="bag-h1-heading"><h1>My Bag</h1><h1 id="item-in-bag">1</h1><h1 id="change-item-to-items">Item</h1></div>
+            <div id="bag-redBus-banner"><img src="./Home Page/bag/Red-truck.webp"><div>Yay! You get FREE delivery on this order</div></div>
+            <div id="append">
+                <!-- <div id="item-show">
+                    <div id="bag-banner3">
+                        <div id="bag-banner3-1">
+                            <div id="bag-banner3-1-1">Buy 2 For 599 offer available
+                            </div>
+                            <div>Add 1 more item to avail this offer
+                            </div>
+                        </div>
+                        <div id="bag-Add-items">
+                            Add items
+                        </div>
+                    </div>
+                    <div id="detail-product-to-buy" style="display:flex">
+                        <div >
+                            <div id="product-name-upload-here">Light Grey Melange Half Sleeve T-Shirt</div>
+                            <div id="product-price-upload-here">₹349<span id="line-through-price">₹799</span></div>
+                            <div id="product-save-upload-here">You saved ₹450!</div>
+                            <div id="set-perameter">
+                                <div id="set-size">Size:L</div>
+                                <div id="set-quantity">Qty:1</div>
+                            </div>
+                        </div>
+                        <div id="product-image-upload-here"><img id="product-image-upload-here-append" src="./Home Page/bag/light-grey-melange-half-sleeve-t-shirt-314391-1638711194-1.webp"> </div>
+                    </div>
+                    <div id="page-button-remove-wishlist" style="display:flex">
+                        <div id="page-button-remove">Remove</div>
+                        <div id="page-button-wishlist">Move To Wishlist</div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div>
+            <div id="bag-extra-saving">Save extra ₹40 with TriBe <span>❯❯</span></div>
+            <div id="bag-coupon-card">Whistles! Get a free gift worth Rs.229 on all prepaid offers above 999. Coupon Code- GIFTFREE</div>
+            <div>
+                <div id="bag-referrence-gift">
+                    <div id="bag-refrence-saving2">Have a Coupon / Referral / Gift Card ?<span>REEDEM ❯❯</span></div>
+                    <div id="bag-buy-details" >
+                        <h3>PRICE SUMMARY</h3>
+                        <div class="flex-box">
+                            <div>Total MRP (Incl. of taxes)</div>
+                            <div id="totalMRP">₹ 1298</div>
+                        </div>
+                        <div class="flex-box">
+                            <div>Delivery Fee </div>
+                            <div style="color:green">FREE</div>
+                        </div>
+                        <div class="flex-box">
+                            <div >Bag Discount </div>
+                            <div id="big-discount">- ₹500</div>
+                        </div>
+                        <div class="flex-box">
+                            <div id="hid-coupon">Combo Offer Discount <span>T&C</span></div>
+                            <div id="coupon-offer-discount"></div>
+                        </div>
+                        <div class="flex-box">
+                            <div>Subtotal</div>
+                            <div id="paying-Amount">₹ 599</div>
+                        </div>
+                        <div id="saving-on-purchase">You are saving <div id="total-paying-amount">₹550</div> on this order</div>
+                    </div>
+                    <div id="purchase-enter-address">
+                        <div>
+                            <div>Total</div>
+                            <div id="paying-Amount-final">₹ 599</div>
+                        </div>
+                        <div id="go-to-add-address">ADD ADDRESS</div>
+                    </div>
+                </div>
+        
+                </div>
+        </div>
+</body>
+</html>
+<script type="module">
+
+    import {productPurchase_navbar} from "./components/navbar.js"
+    
+    document.getElementById("import-navbar-payment-pages").innerHTML =productPurchase_navbar();
+
+    // click image of bewakoof move to home page
+    document.querySelector("#navbar>img").addEventListener("click",()=>{
+            window.location.href="/index.html"
+        })
+    // click to move on to address add page
+    document.getElementById("go-to-add-address").addEventListener("click",()=>{
+        setTimeout(()=>{
+            window.location.href="/bewakoof-address-add-page.html"
+        },100)
+    })
+
+    let register_id =JSON.parse(localStorage.getItem("bewakoof-sign-in-email"))
+    console.log(register_id)
+    
+    document.getElementById("Register-email-show").innerHTML=register_id;
+    </script>
+<script src="./script/bewakoof-bag.js"></script>
+<script src="./script/hidden_address.js"></script>

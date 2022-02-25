@@ -1,0 +1,117 @@
+body{
+    background-color: oldlace;
+}
+#login-navbar2-body
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+}
+#login-navbar2-body>h1{
+    width: 20%;
+    margin: auto;
+    padding-top: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#login-navbar2-body>form{
+    width: 40%;
+    margin: auto;
+    margin-top:30px;
+
+}
+#login-navbar2-body>#login-to-page2-form>:nth-child(1)
+{
+    width: 30%;
+    margin-left: 45%;
+    /* font-size: 20px; */
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#login-navbar2-body>#login-to-page2-form>:nth-child(4)
+{
+    width: 42%;
+    margin-left: 15%;
+    margin-right: 2%;
+    padding-left: 24%;
+    border: none;
+    border-bottom: 0.5px solid gray;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    color:gray;
+}
+#login-navbar2-body>#login-to-page2-form>:nth-child(9)
+{
+    width: 30%;
+    margin-left: 42%;
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#login-navbar2-body>#login-to-page2-form>#otp1,#login-navbar2-body>#login-to-page2-form>#otp2,#login-navbar2-body>#login-to-page2-form>#otp3,#login-navbar2-body>#login-to-page2-form>#otp4
+{
+    width: 7%;
+    margin-right: 2%;
+    height: 30px;
+    font-size: 40px;
+    padding-left: 7%;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 0.5px solid gray;
+    outline: none;
+}
+
+#login-navbar2-body>#login-to-page2-form>:nth-child(12)
+{
+    margin-left: 20%;
+}
+#login-navbar2-body>#login-to-page2-form>#otp4+br+input{
+    border: none;
+    outline: none;
+    width: 30%;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 38%;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 400;
+    color: cadetblue;
+}  
+#login-navbar2-body>div{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 3%;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: cadetblue;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+#login-navbar2-body>div>span
+{
+    cursor: pointer;
+    font-size: 22px; 
+    padding-top: 2px;
+}
+#login-navbar2-body>button
+{
+    cursor: pointer;
+    width: 40%;
+    height: 60px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 32%;
+    color: white;
+    background-color: darkgray;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 55px;
+}

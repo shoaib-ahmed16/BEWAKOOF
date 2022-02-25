@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online shopping for Men,Women</title>
+    <link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="https://images.bewakoof.com/web/favicon-1635856217.png"
+    hreflang="en-in"
+  />
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/bewkoof-login-with-otp-page.css">
+    <link rel="stylesheet" href="./style/scross.css">
+
+
+</head> 
+<body>
+
+    <!-- navbar -->
+    <div id="login-navbar2"></div>
+    <div id="login-navbar2-body">
+        <h1>Verify with OTP</h1>
+        <form id="login-to-page2-form">
+            <label>Sent To</label><br><br>
+            <input id="login-2page-number" placeholder="Number" value="9758844002"><br><br><br><br>
+            <label>Enter OTP</label><br><br>
+            <input id="otp1"><input id="otp2"><input id="otp3"><input id="otp4"><br>
+            <input id="submit-login-page2" type="submit" value="RESEND OTP">
+        </form>
+        <div id="Login-with-password-go">Login with password <span>❯</span></div>
+        <button id="final-opt-login">LOGIN</button>
+    </div>
+</body>
+</html>
+
+
+
+
+<script type="module">
+     // import from components folder 
+     import {navbar} from "./components/navbar.js"
+
+document.getElementById("login-navbar2").innerHTML =navbar();
+
+// Login key is hidden even not working 
+document.getElementById("index-page-login-to-bewakoof-sebsite").style.display="none";
+
+// index page code for navbar functionality
+let men = document.getElementById("mendropdown").addEventListener("mouseenter",navbar_appen)
+function navbar_appen() {
+    let y = document.getElementById("Men-category")
+        y.style.display ="block";
+
+    let y1 = document.getElementById("Women-category")
+        y1.style.display ="none";
+
+    let y2= document.getElementById("mobile-cover-category")
+        y2.style.display ="none";
+}
+let men2 = document.getElementById("Men-category").addEventListener("mouseleave",navbar_remove)
+function navbar_remove() {
+    let y = document.getElementById("Men-category")
+    y.style.display ="none";
+}
+let women = document.getElementById("womendropdown").addEventListener("mouseenter",navbar_appen2)
+function navbar_appen2() {
+  
+    let y = document.getElementById("Men-category")
+        y.style.display ="none";
+
+    let y1 = document.getElementById("Women-category")
+        y1.style.display ="block";
+        
+    let y2= document.getElementById("mobile-cover-category")
+        y2.style.display ="none";
+}
+let women2 = document.getElementById("Women-category").addEventListener("mouseleave",navbar_remove2)
+function navbar_remove2() {
+    let y = document.getElementById("Women-category")
+    y.style.display ="none";
+}
+let mobile = document.getElementById("mobilemendropdown").addEventListener("mouseenter",navbar_appen3)
+function navbar_appen3() {
+    let y = document.getElementById("Men-category")
+        y.style.display ="none";
+
+    let y1 = document.getElementById("Women-category")
+        y1.style.display ="none";
+        
+    let y2= document.getElementById("mobile-cover-category")
+        y2.style.display ="block";
+}
+let mobile2 = document.getElementById("mobile-cover-category").addEventListener("mouseleave",navbar_remove3)
+function navbar_remove3() {
+    let y = document.getElementById("mobile-cover-category")
+    y.style.display ="none";
+}
+
+
+document.querySelector("#bewkoof>:nth-child(1)>img").addEventListener("click",()=>{
+    window.location.href="/index.html"
+})
+// product present in cart indicator
+    
+let number_of_item_in_cart=JSON.parse(localStorage.getItem("Purchase-bewakoof-finally"))
+    
+    if(number_of_item_in_cart.length!=0)
+    {
+        document.getElementById("count").style.display="block";
+        document.getElementById("count").innerHTML=number_of_item_in_cart.length
+    }
+    else if(number_of_item_in_cart.length=0)
+    {
+        document.getElementById("count").innerHTML="";
+        document.getElementById("count").style.display="none"
+    
+    }
+    
+    //click to go to Purchase page
+    document.getElementById("count").addEventListener("click",()=>{
+       setTimeout(()=>{ window.location.href="/bewakoof-bag.html"},100);
+    })
+    document.querySelector("#bewkoof>:nth-child(8)").addEventListener("click",()=>{
+       setTimeout(()=>{ window.location.href="/bewakoof-bag.html"},100);
+    })
+</script>
+<script src="./script/bewkoof-login-with-otp-page.js"></script>

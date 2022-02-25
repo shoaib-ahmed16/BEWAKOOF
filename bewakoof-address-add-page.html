@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online shopping for Men,Women</title>
+    <link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="https://images.bewakoof.com/web/favicon-1635856217.png"
+    hreflang="en-in"
+  />
+  <link rel="stylesheet" href="./style/payment-pages-navbar.css">
+  <link rel="stylesheet" href="./style/hidden-popup-address-page.css">
+  <link rel="stylesheet" href="./style/scross.css">
+  <link rel="stylesheet" href="./style/bewakoof-address-add-page.css">
+
+  <style>
+   
+  </style>
+</head>
+<body>
+    <!-- upopup Address -->
+    <div id="address-form">
+        <div style="display:flex">
+            <div id="form">Add New Address</div>
+            <div id="cross">X</div>
+        </div>
+        <div class="div-similar-similar" >Name</div>
+        <input class="div-similar-input" id="input-name" onkeypress="nameAdd(event)" placeholder="Full Name">
+        <div class="div-similar-similar">Mobile Number</div>
+        <input class="div-similar-input" id="input-number" onkeypress="numberAdd(event)" placeholder="Mobile Number">
+        <div id="stylehr"> </div>
+        <div class="div-similar-similar">Pin Code</div>
+        <input class="div-similar-input" id="input-pincode" onkeypress="pinAdd(event)" placeholder="Pin Code">
+        <div class="div-similar-similar" id="div-city-state" style="display: flex;">
+            <div>
+                <div>City</div>
+                <input id="input-city" onkeypress="cityAdd(event)" placeholder="City">
+            </div>
+            <div>
+                <div>State</div>
+                <input id="input-state" onkeypress="stateAdd(event)" placeholder="State">
+            </div>
+        </div>
+        <div class="div-similar-similar">Flat no/Building,Street name</div>
+        <input class="div-similar-input" id="input-flat" onkeypress="flatAdd(event)" placeholder="State">
+        <div class="div-similar-similar">Area/Locality</div>
+        <input class="div-similar-input" id="input-area" onkeypress="areaAdd(event)" placeholder="State">
+        <div class="div-similar-similar">Landmark (Optional)</div>
+        <input class="div-similar-input" id="input-landmark" onkeypress="landMarkAdd(event)" placeholder="State">
+        <div class="div-similar-similar">Save Address As</div>
+        <div id="option-address" class="div-similar-similar">
+        </div>
+        <div id="littlechange">
+            <div id="h" class="div-similar-similar">HOME</div>
+            <div id="o" class="div-similar-similar">OFFICE</div>
+            <div id="oth" class="div-similar-similar">OTHER</div>
+        </div>
+
+    </div>
+    <!-- navbar start -->
+    <div id="import-navbar-payment-pages"></div>
+    <!-- navbar end -->
+    
+    <!--  body start here -->
+    <div id="body-address">
+        <div id="left-portion">
+            <h2 class="font">Order Summary</h2>
+            <div id="detail-address">
+                <div id="first1" class="font">DELIVERY  ADDRESS</div>
+                <div style="display:flex">
+                    <div id="buyer-name" class="font">SHOAIB AHMED </div>
+                    <div id="buyer-add-type" class="font">HOME</div>
+                </div>
+                <p class="font">village dhakrani, dehradun, uttarakhand,
+                    dehradun herbertpur,
+                    Dehradun, Uttarakhand, 248142
+                </p>
+                <div style="display: flex;"  class="font">Mobile :<div id="add-number" class="font">9759988724</div></div>
+                <div id="Change-add-address" class="font">CHANGE OR ADD ADDRESS</div>
+            </div>
+        </div>
+        <div id="right-portion">
+            <div id="bag-referrence-gift">
+                <div id="bag-buy-details" >
+                    <div>PRICE SUMMARY</div>
+                    <div class="flex-box">
+                        <div>Total MRP (Incl. of taxes)</div>
+                        <div id="totalMRP">₹ 1298</div>
+                    </div>
+                    <div class="flex-box">
+                        <div>Delivery Fee </div>
+                        <div style="color:green">FREE</div>
+                    </div>
+                    <div class="flex-box">
+                        <div >Bag Discount </div>
+                        <div id="big-discount">- ₹500</div>
+                    </div>
+                    <div class="flex-box">
+                        <div id="hid-coupon">Combo Offer Discount <span>T&C</span></div>
+                        <div id="coupon-offer-discount"></div>
+                    </div>
+                    <div class="flex-box">
+                        <div>Subtotal</div>
+                        <div id="paying-Amount">₹ 599</div>
+                    </div>
+                    <div id="saving-on-purchase">You are saving <div id="total-paying-amount">₹550</div> on this order</div>
+                </div>
+                <div id="purchase-enter-address">
+                    <div>
+                        <div>Total</div>
+                        <div id="paying-Amount-final">₹ 599</div>
+                    </div>
+                    <div id="go-to-add-address">CONTINUE</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script type="module">
+
+import {productPurchase_navbar} from "./components/navbar.js"
+
+document.getElementById("import-navbar-payment-pages").innerHTML =productPurchase_navbar()
+document.querySelector("#navbar>img").addEventListener("click",()=>{
+        window.location.href="/index.html"
+    })
+
+document.querySelector("#go-to-add-address").addEventListener("click",()=>{
+    window.location.href="/bewakoof-payment-page.html"
+})
+
+
+let register_id =JSON.parse(localStorage.getItem("bewakoof-sign-in-email"))
+console.log(register_id)
+
+document.getElementById("Register-email-show").innerHTML=register_id;
+
+</script>
+<script src="./script/bewakoof-address-add-page.js"></script>
+<script src="./script/hidden_address.js"></script>
