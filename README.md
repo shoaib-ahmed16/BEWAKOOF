@@ -31,7 +31,23 @@ I design this website during my learning process for full stack web development,
 
 ![Product page](https://user-images.githubusercontent.com/96101435/167234566-dcb68eba-d02f-49ff-aeb8-6aa08e403b3e.png)
 
-6.Add product to Cart Page:
+
+6.Add product to Cart Page (Review):
 
 ![add to cart page](https://user-images.githubusercontent.com/96101435/167234593-4b2d07a9-64a3-40fd-b69a-4e30f250704d.png)
 
+7. Cart Page:
+
+![bag](https://user-images.githubusercontent.com/96101435/167234647-cc522a2f-10ec-4b7e-b5c2-55696106587a.png)
+
+8. Placing order page:
+
+![address](https://user-images.githubusercontent.com/96101435/167234674-9df39e82-d2f1-42e0-aa84-eee4c78fa0bf.png)
+
+9. Form to change existing or new Address:
+
+![to change address](https://user-images.githubusercontent.com/96101435/167234690-7e428481-7baf-49f0-ac9c-5ee6da3ce243.png)
+
+10.Payment Page:
+
+![buy page](https://user-images.githubusercontent.com/96101435/167234706-c9d51d33-b57b-4d84-b518-622405a9b8e9.png)
