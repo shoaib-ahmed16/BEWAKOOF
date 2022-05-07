@@ -31,4 +31,7 @@ I design this website during my learning process for full stack web development,
 
 ![Product page](https://user-images.githubusercontent.com/96101435/167234566-dcb68eba-d02f-49ff-aeb8-6aa08e403b3e.png)
 
-6.
+6.Add product to Cart Page:
+
+![add to cart page](https://user-images.githubusercontent.com/96101435/167234593-4b2d07a9-64a3-40fd-b69a-4e30f250704d.png)
+
