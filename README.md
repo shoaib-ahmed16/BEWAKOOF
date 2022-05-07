@@ -5,4 +5,9 @@ I design this website during my learning process for full stack web development,
 
 https://bewakoof-com-shoaib-ahmed16.vercel.app/
 
-# Screenshot Of App
+# Screenshot Of App:
+
+1. landing page (Men section):
+
+
+![man section](https://user-images.githubusercontent.com/96101435/167234416-c56f8209-e50f-4462-a68f-7b09399b9e8a.png)
